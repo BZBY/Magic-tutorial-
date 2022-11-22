@@ -1,7 +1,10 @@
 
 
+内容 转载：
 
->内容 转载：https://www.acgns.org/72631
+> https://www.acgns.org/72631
+> https://github.com/zcyzcy88/TagTable
+> https://www.zhihu.com/question/558019952/answer/2710009035
 
 
 <h3 id = "start">目录：</h3>
@@ -406,12 +409,12 @@ knee_boots	马靴
 总的来说,每个tag标签最好有一定的连贯性,比如blunt bangs(齐刘海 *Blunt*  bangs)  ,  hair over one eye
 下面使用了这个ai咒术式。
 
-Prompt: {{official art}}, 1girl, medium hair, wavy hair, school uniform, face, {{ TAG TESTED GOES HERE }}
+Prompt:   official art  , 1girl, medium hair, wavy hair, school uniform, face,    TAG TESTED GOES HERE   
 seed: 966082668
 
 给大家翻译成中文大概了解一下。
 
-提示：{{{官方art}},一个女孩,中发,波浪状头发,校服,脸,{{ 测试的标签去这里 }}
+提示：   官方art  ,一个女孩,中发,波浪状头发,校服,脸,   测试的标签去这里   
 种子：966082668
 
 ```
@@ -483,8 +486,8 @@ endured_face	忍耐的表情
 
 #### <a id='eye' href = "#start" > Eyes 眼睛</a>
 
-Prompt: {{official art}}, white background, 1girl, parted bangs, white hair, school uniform, face, eye focus {{ TAG TESTED GOES HERE
-提示：{{{官方art}},白色背景,一个女孩,分开的刘海,白发,校服,脸部,眼睛焦点{{测试的标签去这里
+Prompt:   official art  , white background, 1girl, parted bangs, white hair, school uniform, face, eye focus    TAG TESTED GOES HERE
+提示：   官方art  ,白色背景,一个女孩,分开的刘海,白发,校服,脸部,眼睛焦点  测试的标签去这里
 
 <img src = 'novalAI resourse\29.png'>
 <img src = 'novalAI resourse\30.png'>
@@ -505,11 +508,11 @@ Prompt: {{official art}}, white background, 1girl, parted bangs, white hair, sch
 
 #### <a id='hair' href = "#start" > Hair 头发</a>
 Hair Styles 发型
-Prompt: {{official art}}, 1girl, brown hair, school uniform, face, smile, {{ TAG TESTED GOES HERE }}
+Prompt:   official art  , 1girl, brown hair, school uniform, face, smile,    TAG TESTED GOES HERE   
 
 简单翻译：
 
-提示：{{{官方art}},一个女孩,棕色头发,校服,脸部,微笑,{{tag测试}}}}
+提示：   官方art  ,一个女孩,棕色头发,校服,脸部,微笑,  tag测试    
 
 <img src = 'novalAI resourse\36.png'>
 <img src = 'novalAI resourse\37.png'>
@@ -530,12 +533,12 @@ Oddities
 
 #### <a id='prints' href = "#start" > Patterns and Prints 图案和印刷 </a>
 
-Prompt: {{official art}}, 1girl, blonde hair, twintails, spaghetti strap, smile, {{head out of frame}}, {{ TAG TESTED GOES HERE
+Prompt:   official art  , 1girl, blonde hair, twintails, spaghetti strap, smile,   head out of frame  ,    TAG TESTED GOES HERE
 
 
 简单翻译：
 
-提示：{{{官方art}},一个女孩l,金发,双马尾,细背带,微笑,{{{框架的头}},
+提示：   官方art  ,一个女孩l,金发,双马尾,细背带,微笑,   框架的头  ,
 
 
 <img src = 'novalAI resourse\44.png'>
@@ -557,13 +560,45 @@ pattern oddities 1
 #### <a id='media' href = "#start" > Media 媒体介质风格 </a>
 应该是一些有助于区分传统媒体风格的标签
 
-Prompt: 1girl, magical girl, traditional media, face, white border, beige background, {{ TAG TESTED GOES HERE
+Prompt: 1girl, magical girl, traditional media, face, white border, beige background,    TAG TESTED GOES HERE
 Seed: 3578818234
 
 简单翻译：
 
-提示：一个女孩,魔法女孩,传统媒体,面部,白色边框,米色背景,{{标签测试
+提示：一个女孩,魔法女孩,传统媒体,面部,白色边框,米色背景,  标签测试
 种子：3578818234
+
+```
+草图 线稿相关:
+sketch可以让图片看起来像随手画的草稿
+  lineart  可以让线条变得很粗
+   posing sketch   ,   monochrome   黑白草图
+ rough sketch  上了颜色的草图
+monochrome+lineart情况下一般只会让眼睛上色，强调发色后头发也可以上色
+   monochrome   ,    gray scale   ,    pencil sketch lines   做出的铅笔速写的感觉
+利用sketch，pastel color，lineart的tag模拟一张图的绘画过程
+艺术风格:
+
+chibi可以画出低头身比的效果(二头身, 三头身)
+  watercolor pencil  可以生成彩铅画
+  faux traditional media  可以做出签绘的风格
+anime screeshot，可以让画面变成动画风格
+   retro artstyle   赛璐璐风
+ photorealistic ,  painting ,  realistic ,  sketch ,  oil painting  厚涂
+pastel color和sketch搭配会有速涂的质感
+
+杂志 设定集风格:
+
+official art 变得更加官方一点
+three views from front, back and side和costume setup materials可以用来生成设定图
+multiple views 会出现类似设定图
+ character sheet 会出现设定图
+magazine cover会把背景换成杂志封面, 配合office art更像真实杂志(虽然字没法看)
+magazine scan类似杂志内页的风格
+posing会强调有一个动作, 不至于出现混乱的动作(露出有六个手指头的手)
+caustics 画面向主题聚焦, 类似海报
+```
+
 
 <img src = 'novalAI resourse\50.png'>
 <img src = 'novalAI resourse\51.png'>
@@ -603,7 +638,7 @@ NSFW, lowres,bad anatomy,bad hands, text, error, missing fingers,extra digit, fe
 ##### 质量词语
 
 ```
-{anime screenshot}(masterpiece,best quality,illustration, cinematic lighting,CG,wallpaper)
+ anime screenshot (masterpiece,best quality,illustration, cinematic lighting,CG,wallpaper)
 
 anime screenshot
 masterpiece
