@@ -6,6 +6,9 @@
 
 <h3 id = "start">目录：</h3>
 
+0.  [人物类型](#person)
+00. [人物姿势](#look) 
+1.  [服饰](#clothes) 
 1.  [表情](#table1)
 2.  [Head Bits](#headbits)
 3.  [耳朵](#ear)
@@ -16,270 +19,18 @@
 7.  [colorStyles](#colorstyle)
 8.  [符号表情](#symbols)
 9.  [敏感焦点](#focuse)
-11. [质量设置](#set) 
+11. [质量环境设置](#set) 
 12. [其它](#other)
 13. [tag](#tag)
+14. [物品背景](#object)
+
 
 # Start
 
-###  <a id="table1" href = "#start">表情</a>
 
-总的来说，每个tag标签最好有一定的连贯性，比如blunt bangs(齐刘海 *Blunt*  bangs)  ,  hair over one eye
-下面使用了这个ai咒术式。
+### <a id="person" href = "#start"> 人物类型</a>
 
-Prompt: {{official art}}, 1girl, medium hair, wavy hair, school uniform, face, {{ TAG TESTED GOES HERE }}
-seed: 966082668
-
-给大家翻译成中文大概了解一下。
-
-提示：{{{官方art}}，一个女孩，中发，波浪状头发，校服，脸，{{ 测试的标签去这里 }}
-种子：966082668
-
-
-<img src = 'novalAI resourse\18.png'>
-<img src = 'novalAI resourse\19.png'>
-<img src = 'novalAI resourse\20.png'>
-<img src = 'novalAI resourse\21.png'>
-
----
-
----
-
-### 头部
-
-#### <a id='headbits' href = "#start" >Head Bits</a>
-
-<img src = 'novalAI resourse\22.png'>
-<img src = 'novalAI resourse\23.png'>
-
-
----
-
-#### <a id='ear' href = "#start" > Ears 耳朵</a>
-<img src = 'novalAI resourse\24.png'>
-<img src = 'novalAI resourse\25.png'>
-<img src = 'novalAI resourse\26.png'>
-<img src = 'novalAI resourse\27.png'>
-<img src = 'novalAI resourse\28.png'>
-
-#### <a id='eye' href = "#start" > Eyes 眼睛</a>
-
-Prompt: {{official art}}, white background, 1girl, parted bangs, white hair, school uniform, face, eye focus {{ TAG TESTED GOES HERE
-提示：{{{官方art}}，白色背景，一个女孩，分开的刘海，白发，校服，脸部，眼睛焦点{{测试的标签去这里
-
-<img src = 'novalAI resourse\29.png'>
-<img src = 'novalAI resourse\30.png'>
-<img src = 'novalAI resourse\31.png'>
-<img src = 'novalAI resourse\32.png'>
-
-
-
----
-
-#### Oddities 奇怪
-
-<img src = 'novalAI resourse\33.png'>
-<img src = 'novalAI resourse\34.png'>
-<img src = 'novalAI resourse\35.png'>
-
----
-
-#### <a id='hair' href = "#start" > Hair 头发</a>
-Hair Styles 发型
-Prompt: {{official art}}, 1girl, brown hair, school uniform, face, smile, {{ TAG TESTED GOES HERE }}
-
-简单翻译：
-
-提示：{{{官方art}}，一个女孩，棕色头发，校服，脸部，微笑，{{tag测试}}}}
-
-<img src = 'novalAI resourse\36.png'>
-<img src = 'novalAI resourse\37.png'>
-<img src = 'novalAI resourse\38.png'>
-<img src = 'novalAI resourse\39.png'>
-<img src = 'novalAI resourse\40.png'>
-<img src = 'novalAI resourse\41.png'>
-<img src = 'novalAI resourse\42.png'>
-
----
-
-Oddities
-<img src = 'novalAI resourse\43.png'>
-
-
-
----
-
-#### <a id='prints' href = "#start" > Patterns and Prints 图案和印刷 </a>
-
-Prompt: {{official art}}, 1girl, blonde hair, twintails, spaghetti strap, smile, {{head out of frame}}, {{ TAG TESTED GOES HERE
-
-
-简单翻译：
-
-提示：{{{官方art}}，一个女孩l，金发，双马尾，细背带，微笑，{{{框架的头}}，
-
-
-<img src = 'novalAI resourse\44.png'>
-<img src = 'novalAI resourse\45.png'>
-<img src = 'novalAI resourse\46.png'>
-<img src = 'novalAI resourse\47.png'>
-<img src = 'novalAI resourse\48.png'>
-
----
-
-Oddities 奇怪
-pattern oddities 1
-
-<img src = 'novalAI resourse\49.png'>
-
-
----
-
-#### <a id='media' href = "#start" > Media 媒体介质风格 </a>
-应该是一些有助于区分传统媒体风格的标签
-
-Prompt: 1girl, magical girl, traditional media, face, white border, beige background, {{ TAG TESTED GOES HERE
-Seed: 3578818234
-
-简单翻译：
-
-提示：一个女孩，魔法女孩，传统媒体，面部，白色边框，米色背景，{{标签测试
-种子：3578818234
-
-<img src = 'novalAI resourse\50.png'>
-<img src = 'novalAI resourse\51.png'>
-<img src = 'novalAI resourse\52.png'>
-
----
-
-
-####  <a id='colorstyle' href = "#start" > Color Styles 颜色样式 </a>
-<img src = 'novalAI resourse\53.png'>
-
----
-
-#### <a id='symbols' href = "#start" > Symbols 符号表情</a>
-<img src = 'novalAI resourse\54.png'>
-
----
-
-#### <a id='focuse' href = "#start" > Focuses (Sensitive) 敏感焦点</a>
-<img src = 'novalAI resourse\55.png'>
-
----
-
-
-####  <a id='set' href = "#start" > 质量与NSFW设置</a>
-
-##### 排除词
-```py
-multiple breasts, (mutated hands and fingers:1.5 ), (long body :1.3), (mutation, poorly drawn :1.2) , black-white, bad anatomy, liquid body, liquid tongue, disfigured, malformed, mutated, anatomical nonsense, text font ui, error, malformed hands, long neck, blurred, lowers, lowres, bad anatomy, bad proportions, bad shadow, uncoordinated body, unnatural body, fused breasts, bad breasts, huge breasts, poorly drawn breasts, extra breasts, liquid breasts, heavy breasts, missing breasts, huge haunch, huge thighs, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, fused ears, bad ears, poorly drawn ears, extra ears, liquid ears, heavy ears, missing ears, fused animal ears, bad animal ears, poorly drawn animal ears, extra animal ears, liquid animal ears, heavy animal ears, missing animal ears, text, ui, error, missing fingers, missing limb, fused fingers, one hand with more than 5 fingers, one hand with less than 5 fingers, one hand with more than 5 digit, one hand with less than 5 digit, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, colorful tongue, black tongue, cropped, watermark, username, blurry, JPEG artifacts, signature, 3D, 3D game, 3D game scene, 3D character, malformed feet, extra feet, bad feet, poorly drawn feet, fused feet, missing feet, extra shoes, bad shoes, fused shoes, more than two shoes, poorly drawn shoes, bad gloves, poorly drawn gloves, fused gloves, bad cum, poorly drawn cum, fused cum, bad hairs, poorly drawn hairs, fused hairs, big muscles, ugly, bad face, fused face, poorly drawn face, cloned face, big face, long face, bad eyes, fused eyes poorly drawn eyes, extra eyes, malformed limbs, more than 2 nipples, missing nipples, different nipples, fused nipples, bad nipples, poorly drawn nipples, black nipples, colorful nipples, gross proportions. short arm, (((missing arms))), missing thighs, missing calf, missing legs, mutation, duplicate, morbid, mutilated, poorly drawn hands, more than 1 left hand, more than 1 right hand, deformed, (blurry), disfigured, missing legs, extra arms, extra thighs, more than 2 thighs, extra calf, fused calf, extra legs, bad knee, extra knee, more than 2 legs, bad tails, bad mouth, fused mouth, poorly drawn mouth, bad tongue, tongue within mouth, too long tongue, black tongue, big mouth, cracked mouth, bad mouth, dirty face, dirty teeth, dirty pantie, fused pantie, poorly drawn pantie, fused cloth, poorly drawn cloth, bad pantie, yellow teeth, thick lips, bad cameltoe, colorful cameltoe, bad asshole, poorly drawn asshole, fused asshole, missing asshole, bad anus, bad pussy, bad crotch, bad crotch seam, fused anus, fused pussy, fused anus, fused crotch, poorly drawn crotch, fused seam, poorly drawn anus, poorly drawn pussy, poorly drawn crotch, poorly drawn crotch seam, bad thigh gap, missing thigh gap, fused thigh gap, liquid thigh gap, poorly drawn thigh gap, poorly drawn anus, bad collarbone, fused collarbone, missing collarbone, liquid collarbone, strong girl, obesity, worst quality, low quality, normal quality, liquid tentacles, bad tentacles, poorly drawn tentacles, split tentacles, fused tentacles, missing clit, bad clit, fused clit, colorful clit, black clit, liquid clit, QR code, bar code, censored, safety panties, safety knickers, beard, furry ,pony, pubic hair, mosaic, excrement, faeces, shit
 ```
-
-
-----
-
-#### <a id='other' href = "#start" > 其它 </a>
-
-
-
-
-#### <a id='tag' href = "#start" > tag一览 </a>
-##  tag
-
-### 1
-
-
-
-``` python
-出处 https://github.com/zcyzcy88/TagTable
-#图片属性
-artbook	原画
-game_cg	游戏CG
-comic	漫画
-4koma	四格
-animated_gif	gif格式图片
-dakimakura	抱枕
-cosplay	角色扮演
-crossover	穿越
-dark	暗的
-light	亮的
-night	晚上
-guro	猎奇
-realistic	写实
-photo	照片
-real	真实
-landscape/scenery	风景
-cityscape	城市风景
-science_fiction	科技幻想
-original	原创
-parody	拙劣的模仿
-personification	拟人
-checkered	格子的
-lowres	低分辨率
-highres	高分辨率
-absurdres	超高分辨率
-incredibly_absurdres	极高分辨率
-huge_filesize	超级高分辨率/大文件
-wallpaper	壁纸
-pixel_art	点阵图
-monochrome	单色图片
-colorful	色彩斑斓的
-optical_illusion	视觉错误
-fine_art_parody	名画模仿
-sketch	素描
-traditional_media	传统媒体（基本上是手绘稿）
-watercolor_(medium)	透明水彩绘
-silhouette	剪影
-covr	封面
-album	专辑
-sample	图上有sample字样
-back	背影像
-bust	半身像
-profile	侧面绘
-expressions	表情绘（各种表情）
-everyone	一部作品中的主要人物集齐
-column_lineup	一列列小图组成大图
-transparent_background	透明的背景(.png)
-simple_background	简单的背景(无背景)
-gradient_background	渐变的背景
-zoom_layer	背景是前景的放大版
-English	英文
-Chinese	中文
-French	法文
-Japanese	日本人
-translation_request	翻译
-bad_id	ID转向错误(原地址或已被删除)
-tagme	图片有一些上传者未知的项目
-artist_request	作者未知,需要补完
-what	不知所谓
-
-#颜文字
->_<
-x3
-o_o
-0_0
-3_3
-@_@
-^_^
-|_|
-=_=
-:3
-+_+
-:D
-:p
-;p
-q:
-:t
-:3
-:<
-:>
-:>=
-:o
-o3o
-^_^
-/\/\/\
-
 #人物类型
 Witch	女巫
 miko	巫女
@@ -287,7 +38,7 @@ maid	女仆
 waitress	女服务员
 cheerleader	拉拉队
 doll	人偶
-yukkuri_shiteitte_ne	油库里（馒头样人物，东方系列）
+yukkuri_shiteitte_ne	油库里（馒头样人物,东方系列）
 ninja	忍者/日本武士
 nun	修女
 mermaid	美人鱼
@@ -319,47 +70,13 @@ sisters	姐妹
 siblings	兄弟姐妹
 1girl/boys	1个女人/男人
 2girls/boys	2个女人/男人
+```
 
-#人物表情
-makeup	浓装
-food_on_face	食物在脸上
-eyes_closed	闭眼
-wink/blinking	眨眼
-wince	闭一只眼
-slit_pupils	竖的瞳孔/猫眼
-heterochromia	异色瞳
-heart-shaped_pupils	爱心形瞳孔
-eyelid_pull	拉眼皮吐舌鬼脸
-aqua_eyes	水汪汪的眼睛
-tsurime	吊眼角
-eyeball	盯着看
-tears	眼泪
-smelling	闻
-nosebleed	鼻血
-lips	嘴唇
-clenched_teeth	咬牙
-open_mouth	张口
-pout	努嘴
-sigh	叹气
-smile	微笑
-grin	露齿而笑
-stare	凝视
-angry	生气的
-annoyed	苦恼的
-crazy	疯狂的
-shy	害羞的
-embarrassed	尴尬的
-blush	脸红的
-sleepy	困乏的
-sad	悲伤的
-drunk	喝醉的
-dark_persona	黑化的
-frown	皱眉/蹙额
-expressionless	无表情的
-naughty_face	下流的表情
-endured_face	忍耐的表情
-looking_at_viewer	看着你
+---
 
+### <a id="look" href = "#start"> 人物姿态 动作 </a>
+
+```
 人物形态
 ahoge	呆毛
 bangs	刘海
@@ -499,7 +216,14 @@ wet	湿身
 sweat	流汗
 mimikaki	掏耳勺
 standing	站立
+```
+---
 
+
+### <a id="clothes" href = "#start"> 服饰 </a>
+
+
+```
 #服装风格
 gothic	哥特风格
 lolita_fashion	洛丽塔风格
@@ -673,6 +397,341 @@ slippers	拖鞋
 boots	靴子
 knee_boots	马靴
 
+```
+
+---
+
+###  <a id="table1" href = "#start">表情</a>
+
+总的来说,每个tag标签最好有一定的连贯性,比如blunt bangs(齐刘海 *Blunt*  bangs)  ,  hair over one eye
+下面使用了这个ai咒术式。
+
+Prompt: {{official art}}, 1girl, medium hair, wavy hair, school uniform, face, {{ TAG TESTED GOES HERE }}
+seed: 966082668
+
+给大家翻译成中文大概了解一下。
+
+提示：{{{官方art}},一个女孩,中发,波浪状头发,校服,脸,{{ 测试的标签去这里 }}
+种子：966082668
+
+```
+#人物表情
+makeup	浓装
+food_on_face	食物在脸上
+eyes_closed	闭眼
+wink/blinking	眨眼
+wince	闭一只眼
+slit_pupils	竖的瞳孔/猫眼
+heterochromia	异色瞳
+heart-shaped_pupils	爱心形瞳孔
+eyelid_pull	拉眼皮吐舌鬼脸
+aqua_eyes	水汪汪的眼睛
+tsurime	吊眼角
+eyeball	盯着看
+tears	眼泪
+smelling	闻
+nosebleed	鼻血
+lips	嘴唇
+clenched_teeth	咬牙
+open_mouth	张口
+pout	努嘴
+sigh	叹气
+smile	微笑
+grin	露齿而笑
+stare	凝视
+angry	生气的
+annoyed	苦恼的
+crazy	疯狂的
+shy	害羞的
+embarrassed	尴尬的
+blush	脸红的
+sleepy	困乏的
+sad	悲伤的
+drunk	喝醉的
+dark_persona	黑化的
+frown	皱眉/蹙额
+expressionless	无表情的
+naughty_face	下流的表情
+endured_face	忍耐的表情
+```
+
+<img src = 'novalAI resourse\18.png'>
+<img src = 'novalAI resourse\19.png'>
+<img src = 'novalAI resourse\20.png'>
+<img src = 'novalAI resourse\21.png'>
+
+---
+
+---
+
+### 头部
+
+#### <a id='headbits' href = "#start" >Head Bits</a>
+
+<img src = 'novalAI resourse\22.png'>
+<img src = 'novalAI resourse\23.png'>
+
+
+---
+
+#### <a id='ear' href = "#start" > Ears 耳朵</a>
+<img src = 'novalAI resourse\24.png'>
+<img src = 'novalAI resourse\25.png'>
+<img src = 'novalAI resourse\26.png'>
+<img src = 'novalAI resourse\27.png'>
+<img src = 'novalAI resourse\28.png'>
+
+#### <a id='eye' href = "#start" > Eyes 眼睛</a>
+
+Prompt: {{official art}}, white background, 1girl, parted bangs, white hair, school uniform, face, eye focus {{ TAG TESTED GOES HERE
+提示：{{{官方art}},白色背景,一个女孩,分开的刘海,白发,校服,脸部,眼睛焦点{{测试的标签去这里
+
+<img src = 'novalAI resourse\29.png'>
+<img src = 'novalAI resourse\30.png'>
+<img src = 'novalAI resourse\31.png'>
+<img src = 'novalAI resourse\32.png'>
+
+
+
+---
+
+#### Oddities 奇怪
+
+<img src = 'novalAI resourse\33.png'>
+<img src = 'novalAI resourse\34.png'>
+<img src = 'novalAI resourse\35.png'>
+
+---
+
+#### <a id='hair' href = "#start" > Hair 头发</a>
+Hair Styles 发型
+Prompt: {{official art}}, 1girl, brown hair, school uniform, face, smile, {{ TAG TESTED GOES HERE }}
+
+简单翻译：
+
+提示：{{{官方art}},一个女孩,棕色头发,校服,脸部,微笑,{{tag测试}}}}
+
+<img src = 'novalAI resourse\36.png'>
+<img src = 'novalAI resourse\37.png'>
+<img src = 'novalAI resourse\38.png'>
+<img src = 'novalAI resourse\39.png'>
+<img src = 'novalAI resourse\40.png'>
+<img src = 'novalAI resourse\41.png'>
+<img src = 'novalAI resourse\42.png'>
+
+---
+
+Oddities
+<img src = 'novalAI resourse\43.png'>
+
+
+
+---
+
+#### <a id='prints' href = "#start" > Patterns and Prints 图案和印刷 </a>
+
+Prompt: {{official art}}, 1girl, blonde hair, twintails, spaghetti strap, smile, {{head out of frame}}, {{ TAG TESTED GOES HERE
+
+
+简单翻译：
+
+提示：{{{官方art}},一个女孩l,金发,双马尾,细背带,微笑,{{{框架的头}},
+
+
+<img src = 'novalAI resourse\44.png'>
+<img src = 'novalAI resourse\45.png'>
+<img src = 'novalAI resourse\46.png'>
+<img src = 'novalAI resourse\47.png'>
+<img src = 'novalAI resourse\48.png'>
+
+---
+
+Oddities 奇怪
+pattern oddities 1
+
+<img src = 'novalAI resourse\49.png'>
+
+
+---
+
+#### <a id='media' href = "#start" > Media 媒体介质风格 </a>
+应该是一些有助于区分传统媒体风格的标签
+
+Prompt: 1girl, magical girl, traditional media, face, white border, beige background, {{ TAG TESTED GOES HERE
+Seed: 3578818234
+
+简单翻译：
+
+提示：一个女孩,魔法女孩,传统媒体,面部,白色边框,米色背景,{{标签测试
+种子：3578818234
+
+<img src = 'novalAI resourse\50.png'>
+<img src = 'novalAI resourse\51.png'>
+<img src = 'novalAI resourse\52.png'>
+
+---
+
+
+####  <a id='colorstyle' href = "#start" > Color Styles 颜色样式 </a>
+<img src = 'novalAI resourse\53.png'>
+
+---
+
+#### <a id='symbols' href = "#start" > Symbols 符号表情</a>
+<img src = 'novalAI resourse\54.png'>
+
+---
+
+#### <a id='focuse' href = "#start" > Focuses (Sensitive) 敏感焦点</a>
+<img src = 'novalAI resourse\55.png'>
+
+---
+
+
+####  <a id='set' href = "#start" > 质量与NSFW设置</a>
+
+##### 排除词
+```py
+multiple breasts, (mutated hands and fingers:1.5 ), (long body :1.3), (mutation, poorly drawn :1.2) , black-white, bad anatomy, liquid body, liquid tongue, disfigured, malformed, mutated, anatomical nonsense, text font ui, error, malformed hands, long neck, blurred, lowers, lowres, bad anatomy, bad proportions, bad shadow, uncoordinated body, unnatural body, fused breasts, bad breasts, huge breasts, poorly drawn breasts, extra breasts, liquid breasts, heavy breasts, missing breasts, huge haunch, huge thighs, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, fused ears, bad ears, poorly drawn ears, extra ears, liquid ears, heavy ears, missing ears, fused animal ears, bad animal ears, poorly drawn animal ears, extra animal ears, liquid animal ears, heavy animal ears, missing animal ears, text, ui, error, missing fingers, missing limb, fused fingers, one hand with more than 5 fingers, one hand with less than 5 fingers, one hand with more than 5 digit, one hand with less than 5 digit, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, colorful tongue, black tongue, cropped, watermark, username, blurry, JPEG artifacts, signature, 3D, 3D game, 3D game scene, 3D character, malformed feet, extra feet, bad feet, poorly drawn feet, fused feet, missing feet, extra shoes, bad shoes, fused shoes, more than two shoes, poorly drawn shoes, bad gloves, poorly drawn gloves, fused gloves, bad cum, poorly drawn cum, fused cum, bad hairs, poorly drawn hairs, fused hairs, big muscles, ugly, bad face, fused face, poorly drawn face, cloned face, big face, long face, bad eyes, fused eyes poorly drawn eyes, extra eyes, malformed limbs, more than 2 nipples, missing nipples, different nipples, fused nipples, bad nipples, poorly drawn nipples, black nipples, colorful nipples, gross proportions. short arm, (((missing arms))), missing thighs, missing calf, missing legs, mutation, duplicate, morbid, mutilated, poorly drawn hands, more than 1 left hand, more than 1 right hand, deformed, (blurry), disfigured, missing legs, extra arms, extra thighs, more than 2 thighs, extra calf, fused calf, extra legs, bad knee, extra knee, more than 2 legs, bad tails, bad mouth, fused mouth, poorly drawn mouth, bad tongue, tongue within mouth, too long tongue, black tongue, big mouth, cracked mouth, bad mouth, dirty face, dirty teeth, dirty pantie, fused pantie, poorly drawn pantie, fused cloth, poorly drawn cloth, bad pantie, yellow teeth, thick lips, bad cameltoe, colorful cameltoe, bad asshole, poorly drawn asshole, fused asshole, missing asshole, bad anus, bad pussy, bad crotch, bad crotch seam, fused anus, fused pussy, fused anus, fused crotch, poorly drawn crotch, fused seam, poorly drawn anus, poorly drawn pussy, poorly drawn crotch, poorly drawn crotch seam, bad thigh gap, missing thigh gap, fused thigh gap, liquid thigh gap, poorly drawn thigh gap, poorly drawn anus, bad collarbone, fused collarbone, missing collarbone, liquid collarbone, strong girl, obesity, worst quality, low quality, normal quality, liquid tentacles, bad tentacles, poorly drawn tentacles, split tentacles, fused tentacles, missing clit, bad clit, fused clit, colorful clit, black clit, liquid clit, QR code, bar code, censored, safety panties, safety knickers, beard, furry ,pony, pubic hair, mosaic, excrement, faeces, shit
+```
+
+
+##### 质量词语
+
+```
+{anime screenshot}(masterpiece,best quality,illustration, cinematic lighting,CG,wallpaper)
+
+anime screenshot
+masterpiece
+best quality
+illustration
+cinematic lighting
+CG
+wallpaper
+
+#图片属性
+artbook	原画
+game_cg	游戏CG
+comic	漫画
+4koma	四格
+animated_gif	gif格式图片
+dakimakura	抱枕
+cosplay	角色扮演
+crossover	穿越
+dark	暗的
+light	亮的
+night	晚上
+guro	猎奇
+realistic	写实
+photo	照片
+real	真实
+landscape/scenery	风景
+cityscape	城市风景
+science_fiction	科技幻想
+original	原创
+parody	拙劣的模仿
+personification	拟人
+checkered	格子的
+lowres	低分辨率
+highres	高分辨率
+absurdres	超高分辨率
+incredibly_absurdres	极高分辨率
+huge_filesize	超级高分辨率/大文件
+wallpaper	壁纸
+pixel_art	点阵图
+monochrome	单色图片
+colorful	色彩斑斓的
+optical_illusion	视觉错误
+fine_art_parody	名画模仿
+sketch	素描
+traditional_media	传统媒体（基本上是手绘稿）
+watercolor_(medium)	透明水彩绘
+silhouette	剪影
+covr	封面
+album	专辑
+sample	图上有sample字样
+back	背影像
+bust	半身像
+profile	侧面绘
+expressions	表情绘（各种表情）
+everyone	一部作品中的主要人物集齐
+column_lineup	一列列小图组成大图
+transparent_background	透明的背景(.png)
+simple_background	简单的背景(无背景)
+gradient_background	渐变的背景
+zoom_layer	背景是前景的放大版
+English	英文
+Chinese	中文
+French	法文
+Japanese	日本人
+translation_request	翻译
+bad_id	ID转向错误(原地址或已被删除)
+tagme	图片有一些上传者未知的项目
+artist_request	作者未知,需要补完
+what	不知所谓
+
+```
+
+----
+
+#### <a id='other' href = "#start" > 其它 </a>
+
+
+
+
+#### <a id='tag' href = "#start" > tag一览 </a>
+##  tag
+
+### 1
+
+
+
+``` python
+出处 https://github.com/zcyzcy88/TagTable
+
+
+#颜文字
+>_<
+x3
+o_o
+0_0
+3_3
+@_@
+^_^
+|_|
+=_=
+:3
++_+
+:D
+:p
+;p
+q:
+:t
+:3
+:<
+:>
+:>=
+:o
+o3o
+^_^
+/\/\/\
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+### <a id="object" href = "#start"> 物品背景</a>
+
+```
 #物品和背景
 camera	相机
 chopsticks	筷子
@@ -681,8 +740,7 @@ weapons	武器
 dagger	匕首/短剑
 sword	刀
 scythe	镰刀
-whip	鞭
-riding_crop	马鞭
+whip	鞭riding_crop	马鞭
 gun	枪
 handgun	手枪
 wand	魔杖
